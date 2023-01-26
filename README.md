@@ -1,5 +1,5 @@
 # Voron SKT Toolhead
-Mod for Voron 2.4 (no Trident at the moment)
+Mod for Voron 2.4 with umbilical (no Trident at the moment)
 <br/>
 ![Alt text](./Images/skt_1.jpg)<br/>
 <br/>

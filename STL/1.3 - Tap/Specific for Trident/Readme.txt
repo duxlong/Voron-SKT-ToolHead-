@@ -1,0 +1,1 @@
+To install SKT-TAP on trident it's needed to cut the Back-center T8 screw about 10mm  

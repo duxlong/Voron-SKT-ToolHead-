@@ -17,6 +17,5 @@ There will be a CPAP cooling system as soon as possible (and will be compatible 
 ![Alt text](./Images/skt_3.jpg)<br/>
 
 # Voron SKT Toolhead - Voron Tap Edition (for 2.4 and Trident)
-<br/>
 ![Alt text](./Images/skt_tap.jpg)<br/>
 

@@ -1,0 +1,26 @@
+1) Includi il file "SKT-Homing.cfg" nel printer.cfg o copia il suo contenuto nel tuo file delle macro, se ne possiedi uno.
+
+2) Nel file printer.cfg impostare [safe_z_home] come segue (o aggiungerlo se non presente):
+
+[safe_z_home]
+home_xy_position:117.5,117.5  #set your right coordinates of the center
+speed:150				#set your preferred homing speed
+z_hop:0				#Keep this value = 0
+
+
+
+3) Nel file printer.cfg aggiungere come segue:
+
+[force_move]
+enable_force_move: True		#Keep this value = True
+
+
+4) Nella tua macro di "END_PRINT" (potrebbe chiamarsi diversamente) verifica che ci sia "G28 X Y", in tal caso aggiungi dopo che la testa si è allontanata dal piatto
+
+5) Nella tua macro di "PAUSE" impostare le coordinate di parcheggio come segue:
+
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 80.0  %}
+  {% set y_park = printer.toolhead.axis_maximum.y|float - 40.0 %}
+
+
+Fine
